@@ -1,0 +1,23 @@
+// Priors and rules file
+// *********************
+
+[PARAMETERS]
+//#isInt? #name	#dist.#min	#max
+//all N are in number of haploid individuals
+1  NE1       unif        100   500000   output
+1  NE2       unif        100   500000   output
+1  NE3       unif        100   500000   output
+1  NE4       unif        100   500000   output
+1  NE5       unif        100   500000   output
+0  M12      unif        1e-9  0.5	   output
+0  M21      unif        1e-9  0.5      output
+0  M23      unif        1e-9  0.5      output
+0  M32      unif        1e-9  0.5      output
+0  M45      unif        1e-9  0.5      output
+0  M54      unif        1e-9  0.5      output
+1  TDIV     unif        5000  200000    output
+0  MUTR     unif        5e-7  5e-4    output
+[RULES]
+[COMPLEX PARAMETERS]
+
+
